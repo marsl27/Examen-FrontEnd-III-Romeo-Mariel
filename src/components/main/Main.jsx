@@ -53,7 +53,7 @@ class Main extends React.Component {
         return (
             <div className={styles.layout}>
                 <h1 className={styles.historia}>
-                    <p>{this.state.historia.historia}</p>
+                    <p>{historia.historia}</p>
                 </h1>
                 <Opciones opcionA={historia.opciones.a}
                 opcionB= {historia.opciones.b}
